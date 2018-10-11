@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1"
   }
 }
