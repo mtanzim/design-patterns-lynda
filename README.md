@@ -15,5 +15,6 @@ This folder contains the results of exercises from the Lynda.com course "Program
 ## Links for Further Study
 
 - [Typescript official webpage](https://www.typescriptlang.org/)
-- Typescript Github Webpage](https://github.com/Microsoft/TypeScript)
+- [Typescript Github Webpage](https://github.com/Microsoft/TypeScript)
+- [Typerscript Essentials Repo](https://github.com/mtanzim/TypeScriptEssentialTraining)
 - Learning Javascript Design Patterns (Book)
