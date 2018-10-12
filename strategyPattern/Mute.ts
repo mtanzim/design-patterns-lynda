@@ -1,13 +1,13 @@
 import QuackBehaviour from './interfaces/QuackBehaviour'
 
-export default class Quack implements QuackBehaviour {
+export default class Mute implements QuackBehaviour {
   quack(): void {
-    console.log('quack quack!');
+    console.log('**SILENCE**');
   }
 }
 
 /* function driver(): void {
-  let quackTest = new Quack;
+  let quackTest = new Mute;
   quackTest.quack();
 }
 

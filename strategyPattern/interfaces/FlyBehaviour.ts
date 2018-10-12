@@ -1,3 +1,3 @@
-export interface FlyBehaviour {
+export default interface FlyBehaviour {
   fly(): void;
 }

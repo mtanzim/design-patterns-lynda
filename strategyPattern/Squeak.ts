@@ -1,8 +1,8 @@
 import QuackBehaviour from './interfaces/QuackBehaviour'
 
-export default class Quack implements QuackBehaviour {
+export default class Squeak implements QuackBehaviour {
   quack(): void {
-    console.log('quack quack!');
+    console.log('Squeak!');
   }
 }
 
