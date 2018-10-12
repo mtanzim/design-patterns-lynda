@@ -1,4 +1,4 @@
-# Typescript Essential Training - Lynda.com
+# Introduction to Design Patterns - Lynda.com
 
 This folder contains the results of exercises from the Lynda.com course "Programming Foundations: Design Patterns"
 
