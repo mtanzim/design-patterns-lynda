@@ -6,7 +6,7 @@ This folder contains the results of exercises from the Lynda.com course "Program
 
 ## Purpose
 
-- Stregthen understanding of javascript (JS)
+- Strengthen understanding of javascript (JS)
 - Learn and exercise traditional object oriented design patterns
 - Exercise traditional object oriented principles
 
