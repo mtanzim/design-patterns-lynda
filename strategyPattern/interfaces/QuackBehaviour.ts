@@ -1,3 +1,3 @@
-export default interface QuackBehaviour {
-  quack(): void;
-}
+  export default interface QuackBehaviour {
+    quack(): void;
+  }
