@@ -24,8 +24,10 @@ abstract class Duck {
   }
 
   doSwim(): void {
-    console.log('All Ducks SWIM!!!')
+    console.log('All Ducks SWIM!!!');
   }
+
+  abstract display(): void;
   
 }
 
