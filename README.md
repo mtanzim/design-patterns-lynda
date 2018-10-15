@@ -3,6 +3,7 @@
 This folder contains the results of exercises from the Lynda.com course "Programming Foundations: Design Patterns"
 
 [PDF Notes](_blank)
+
 [Source Course](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html)
 
 ## Purpose
