@@ -14,6 +14,7 @@ This folder contains the results of exercises from the Lynda.com course "Program
 ## Table of Contents
 
 - [Strategy Pattern](./strategyPattern)
+- [Observer Pattern](./observerPattern)
 
 ## Links for Further Study
 
