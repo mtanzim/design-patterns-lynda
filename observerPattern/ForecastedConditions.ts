@@ -19,6 +19,10 @@ export default class ForecastedConditions implements IObserver, IDisplay {
     this.display();
   };
 
+  removeSelf():void {
+    this.weatherData.removerObserver(this);
+  }
+
   display(): void {
     console.log(`Forecasted Temperature: ${this.temperature}\nForecasted Humidity: ${this.humidity}\n`);
   }

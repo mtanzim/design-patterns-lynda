@@ -15,6 +15,15 @@ export default class WeatherStation {
     weatherData.setMeasurements(1, 10, 4);
     weatherData.setMeasurements(100, 56, 5);
     weatherData.setMeasurements(30, 45, 7);
+    
+    //remove an observer
+    // weatherData.removerObserver(forecastedCond);
+    forecastedCond.removeSelf();
+    console.log('Removed forecast!\n');
+    weatherData.setMeasurements(102, 105, 7);
+    weatherData.setMeasurements(1020, 1050, 7);
+
+
   }
 }
 
