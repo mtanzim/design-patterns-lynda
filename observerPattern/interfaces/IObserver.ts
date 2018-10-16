@@ -1,3 +1,3 @@
-export default interface ISubject {
-  update(temp: number, humidity: number, pressure: number): void;
+export default interface IObserver {
+  update(temperature: number, humidity: number, pressure: number): void;
 }
