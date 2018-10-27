@@ -23,3 +23,4 @@ This folder contains the results of exercises from the Lynda.com course "Program
 - [Typescript Github Webpage](https://github.com/Microsoft/TypeScript)
 - [Typerscript Essentials Repo](https://github.com/mtanzim/TypeScriptEssentialTraining)
 - Learning Javascript Design Patterns (Book)
+- [Private constructors in TS](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#private-and-protected-constructors)
