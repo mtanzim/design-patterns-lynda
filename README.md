@@ -18,6 +18,7 @@ This folder contains the results of exercises from the Lynda.com course "Program
 - [Observer Pattern](./observerPattern)
 - [Decorator Pattern](./decoratorPattern)
 - [Singleton Pattern](./singletonPattern)
+- [State Pattern](./statePattern)
 
 ## Links for Further Study
 
