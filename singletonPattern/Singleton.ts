@@ -1,6 +1,7 @@
 
 export default class Singleton {
 
+  // note how static properties are referred to later
   private static instance: Singleton;
   private score: number = 10;
   private constructor() {
@@ -19,8 +20,10 @@ export default class Singleton {
     return this.score;
   }
 
+
   static getInstance(): Singleton {
     if (!Singleton.instance) {
+      // example of static properties being used
       Singleton.instance = new Singleton();
     }
     return Singleton.instance;
