@@ -4,21 +4,21 @@ import LinkedList from "../../../JSalgorithms/linkedLists/LinkedList";
 
 export default class CafeMenuIterator implements IIterator {
 
-  items: LinkedList;
-  position: object;
+  items: object;
+  position: number;
 
   constructor (items) {
     this.items = items;
-    this.position = items.head;
+    this.position = 0;
   }
 
   hasNext(): boolean {
-    return Boolean(this.position.next);
+    return Boolean(this.items[this.position]);
   }
 
-  next():LinkedList {
-    let curNode = this.position.data;
-    this.position = this.position.next;
-    return curNode;
+  next():string {
+    let curItem = this.items[String(this.position)];
+    this.position ++;
+    return curItem;
   }
 }
