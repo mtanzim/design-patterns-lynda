@@ -6,12 +6,12 @@ import SoldState from "./SoldState";
 
 export default class GumballMachine {
 
-  soldOutState: AbstractState;
-  noQuarterState: AbstractState;
-  hasQuarterState: AbstractState;
-  soldState: AbstractState;
+  private soldOutState: AbstractState;
+  private noQuarterState: AbstractState;
+  private hasQuarterState: AbstractState;
+  private soldState: AbstractState;
 
-  state: AbstractState;
+  private state: AbstractState;
   private numBalls: number;
   private MAX_BALLS: number;
 
@@ -45,7 +45,9 @@ export default class GumballMachine {
     if (this.numBalls > 0) {
       this.state.dispense();
       this.numBalls--;
+      if (this.numBalls === 0) console.log('WARNING: Please refill machine');
     } else {
+      
       this.state = this.soldOutState;
     }
   }
@@ -64,6 +66,10 @@ export default class GumballMachine {
       throw "Can't refill"
     }
     this.numBalls += numBalls;
+  }
+
+  getCurrentCount () : number {
+    return this.numBalls;
   }
 
   getCurrentState(): AbstractState {

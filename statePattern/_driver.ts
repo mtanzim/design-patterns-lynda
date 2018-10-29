@@ -95,10 +95,6 @@ function driver() {
       console.log(err);
     }
   }
-
-
-  
-
 }
 
 driver();
