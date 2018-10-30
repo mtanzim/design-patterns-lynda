@@ -2,7 +2,7 @@
 
 This folder contains the results of exercises from the Lynda.com course "Programming Foundations: Design Patterns"
 
-[PDF Notes](https://drive.google.com/drive/folders/1FOiW3fi2833T4H9n1QgyTS2an4-oSFy6?usp=sharing)
+[PDF Notes](https://drive.google.com/open?id=1NSBFp0laFdExhqTaX7Ehj6uKYYb32-Da)
 
 [Source Course](https://www.lynda.com/Developer-Programming-Foundations-tutorials/Foundations-Programming-Design-Patterns/135365-2.html)
 
