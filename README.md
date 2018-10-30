@@ -8,7 +8,7 @@ This folder contains the results of exercises from the Lynda.com course "Program
 
 ## Purpose
 
-- Strengthen understanding of javascript (JS)
+- Strengthen understanding of Javascript and Typescript
 - Learn and exercise traditional object oriented design patterns
 - Exercise traditional object oriented principles
 
@@ -20,6 +20,17 @@ This folder contains the results of exercises from the Lynda.com course "Program
 - [Singleton Pattern](./singletonPattern)
 - [State Pattern](./statePattern)
 - [Iterator Pattern](./iteratorPattern)
+- [Simple Factory Pattern](./factorySimplePattern)
+- [Factory Method Pattern](./factoryMethodPattern)
+
+## Core Design Principles
+
+- Encapsulate what varies
+- Favour composition
+- Program to an interface
+- Strive for a loosely coupled design
+- Classes should be open to extention, but closed to modification
+- A class should have a single reason to change
 
 ## Links for Further Study
 
@@ -27,4 +38,8 @@ This folder contains the results of exercises from the Lynda.com course "Program
 - [Typescript Github Webpage](https://github.com/Microsoft/TypeScript)
 - [Typerscript Essentials Repo](https://github.com/mtanzim/TypeScriptEssentialTraining)
 - Learning Javascript Design Patterns (Book)
-- [Private constructors in TS](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#private-and-protected-constructors)
+
+## Next Steps
+
+- Functional Programming
+- Refactoring Code
